@@ -1,0 +1,11 @@
+.handlend{
+    background: #da7f15;
+    border-radius: 5px;
+}
+.text{
+    width: 600px;
+    background: #060652;
+    color: white;
+    border: 5px solid red ;
+    padding: 5px;
+}
