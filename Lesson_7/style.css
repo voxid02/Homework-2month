@@ -1,0 +1,39 @@
+.anime{
+    animation: anime 5s linear infinite;
+}
+@keyframes anime {
+ from{
+     transform: rotate(0deg);
+ }
+
+    to{
+        transform: rotate(360deg);
+       }
+}
+.footer{
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    background: #08084f;
+
+
+}
+.timer{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.footer_inner{
+     margin-left: 200px;
+    margin-top: 175px;
+}
+h3{
+    color: #D3E5FE;
+}
